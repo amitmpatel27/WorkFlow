@@ -28,6 +28,16 @@ namespace OMTECH.WorkFlow.Controllers
             return View();
         }
 
+        public IActionResult Events()
+        {
+            return View();
+        }
+
+        public IActionResult Candidates()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
