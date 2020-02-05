@@ -3,6 +3,6 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Library\DataAccesse.Entity\DataAccess.Entiry.csproj" />
+    <ProjectReference Include="..\..\Library\DataAccesse.Entity\DataAccess.Entiry.csproj" />
   </ItemGroup>
 </Project>
