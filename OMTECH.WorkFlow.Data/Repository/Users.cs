@@ -2,6 +2,9 @@ using System;
 
 namespace OMTECH.WorkFlow.Data.Repository
 {
+    /// <summary>
+    /// Users data class which comunicates with database
+    /// </summary>
     public class Users : OMTECH.WorkFlow.Data.Interface.Users
     {
         /// <summary>

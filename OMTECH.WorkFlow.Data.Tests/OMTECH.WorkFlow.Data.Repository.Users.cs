@@ -8,7 +8,9 @@ namespace OMTECH.WorkFlow.Data.Tests
         [Fact]
         public void Test1()
         {
-
+            var x = new OMTECH.WorkFlow.Data.Repository.Users();
+            x.GetUsers();
+            Assert.True(true);
         }
     }
 }
