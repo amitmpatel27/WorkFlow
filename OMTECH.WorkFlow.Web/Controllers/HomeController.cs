@@ -33,6 +33,11 @@ namespace OMTECH.WorkFlow.Controllers
             return View();
         }
 
+        public IActionResult EventDetail()
+        {
+            return View();
+        }    
+
         public IActionResult Candidates()
         {
             return View();
